@@ -15,10 +15,11 @@ console.log(residue);
 /*Задание №2*/
 
 let x = 7;
-x++ + ++x;
-console.log(x);
-x-- - --x;
-console.log(x);
+
+let increment = x ++ + ++ x;
+console.log("increment = ", increment);
+let decrement = x -- - --x;
+console.log("decrement =", decrement);
 
 /*Задание №3*/
 
